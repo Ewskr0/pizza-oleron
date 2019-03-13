@@ -1623,7 +1623,7 @@
 	}
 
 	body {
-		background-color: #545454;
+		background-color: #424242;
 		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
@@ -2001,7 +2001,7 @@
 
 	select option {
 		color: #ffffff;
-		background: #545454;
+		background: #424242;
 	}
 
 	input[type="text"],
@@ -2076,7 +2076,7 @@
 			background: #ffffff;
 			border-color: #ffffff;
 			content: '\f00c';
-			color: #545454;
+			color: #424242;
 		}
 
 		input[type="checkbox"]:focus + label:before,
@@ -3185,7 +3185,7 @@
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
-				background-color: #545454;
+				background-color: #424242;
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 				background-size: auto, cover;
 				background-position: center, center;
@@ -3295,7 +3295,7 @@
 
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
-			background-color: #545454;
+			background-color: #424242;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
@@ -3338,20 +3338,20 @@
 	}
 
 	.wrapper {
-		background-color: #545454;
+		background-color: #424242;
 		margin: 6.5em 0;
 		position: relative;
 	}
 		.wrapper:before, .wrapper:after {
-			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23545454%3B' /%3E%3C/svg%3E");
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23424242%3B' /%3E%3C/svg%3E");
 		}
 
 		.wrapper:before {
-			box-shadow: inset 0 -1px 0 0 #545454, 0 1px 0 0 #545454;
+			box-shadow: inset 0 -1px 0 0 #424242, 0 1px 0 0 #424242;
 		}
 
 		.wrapper:after {
-			box-shadow: inset 0 -1px 0 0 #545454, 0 1px 0 0 #545454;
+			box-shadow: inset 0 -1px 0 0 #424242, 0 1px 0 0 #424242;
 		}
 
 		.wrapper:before, .wrapper:after {
@@ -3765,7 +3765,7 @@
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			background-color: #545454;
+			background-color: #424242;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 			background-size: auto, cover;
 			background-position: center, center;
@@ -3858,12 +3858,21 @@
 		width: 26em !important;
 	}
 
+
+	.image3,.image3 img {
+		border-radius: 0px !important;
+	}
+	
+
 }
 #two {
 	position: relative;
 	padding: 10% 2%;
 }
 
+.pizzaEl {
+	height: 120px;
+}
 
 .pizzaEl p{
 	padding-top: 0px;
