@@ -2171,6 +2171,7 @@
 		.image img {
 			border-radius: 5px;
 			display: block;
+			max-width: 100%;
 		}
 
 		.image.left, .image.right {
@@ -3862,8 +3863,6 @@
 	.image3,.image3 img {
 		border-radius: 0px !important;
 	}
-	
-
 }
 #two {
 	position: relative;
